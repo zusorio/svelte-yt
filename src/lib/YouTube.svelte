@@ -1,4 +1,4 @@
-<script lang='ts'>
+<script lang="ts">
 	import { createEventDispatcher, onMount } from 'svelte';
 	import YoutubePlayer from 'youtube-player';
 	import type { Options, YouTubePlayer } from 'youtube-player/dist/types';
@@ -83,4 +83,4 @@
 	}
 </script>
 
-<div bind:this={playerElem}></div>
+<div bind:this={playerElem} />

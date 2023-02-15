@@ -17,11 +17,11 @@ npm install svelte-yt
 	import { YouTube } from 'svelte-yt';
 
 	let videoId = 'M7lc1UVf-VE';
-    // Can be used to control full YouTube player
-    // See https://developers.google.com/youtube/iframe_api_reference#Functions
+	// Can be used to control full YouTube player
+	// See https://developers.google.com/youtube/iframe_api_reference#Functions
 	let player;
 
-    // See https://developers.google.com/youtube/player_parameters#Parameters
+	// See https://developers.google.com/youtube/player_parameters#Parameters
 	const options = {
 		playerVars: {
 			modestbranding: 1
